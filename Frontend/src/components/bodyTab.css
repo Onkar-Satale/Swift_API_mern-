@@ -1,0 +1,115 @@
+/* ==== Options row container (horizontal layout) ==== */
+.body-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+/* ==== Custom Radio Buttons (Postman-like, with black/blue) ==== */
+.body-option {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #fff;
+}
+
+.body-option input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #aaa;
+  border-radius: 50%;
+  background-color: #2b2b2b;
+  margin-right: 6px;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+/* Checked (selected) state */
+.body-option input[type="radio"]:checked {
+  border-color: #007BFF;
+  background-color: #007BFF;
+}
+
+/* White inner dot when selected */
+.body-option input[type="radio"]:checked::after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* ==== JSON EDITOR (AceEditor) SCROLLBAR ==== */
+.json-editor {
+  height: 325px;
+  overflow-y: auto;
+}
+
+
+
+
+
+/* ==== Scrollable Elements: Sidebar, Response, History, JSON Editor ==== */
+.sidebar-large,
+.response-body,
+.history-list,
+.json-editor {
+  overflow-y: auto;           /* Enable vertical scrolling */
+  box-sizing: border-box;     /* Ensure padding is included in total width/height */
+  padding-right: 12px;        /* Adds space for scrollbar */
+}
+
+/* --- Webkit (Chrome, Edge, Safari) --- */
+.sidebar-large::-webkit-scrollbar,
+.response-body::-webkit-scrollbar,
+.history-list::-webkit-scrollbar,
+.json-editor::-webkit-scrollbar {
+  width: 6px;    /* Very thin scrollbar */
+  height: 6px;   /* Horizontal scrollbar (if necessary) */
+}
+
+.sidebar-large::-webkit-scrollbar-track,
+.response-body::-webkit-scrollbar-track,
+.history-list::-webkit-scrollbar-track,
+.json-editor::-webkit-scrollbar-track {
+  background: transparent;   /* Transparent track */
+}
+
+.sidebar-large::-webkit-scrollbar-thumb,
+.response-body::-webkit-scrollbar-thumb,
+.history-list::-webkit-scrollbar-thumb,
+.json-editor::-webkit-scrollbar-thumb {
+  background-color: #888;   /* Thumb color */
+  border-radius: 3px;
+  border: 1px solid transparent;  /* Transparent border between thumb and content */
+}
+
+/* --- Firefox --- */
+.sidebar-large,
+.response-body,
+.history-list,
+.json-editor {
+  scrollbar-width: thin;           /* Thin scrollbar in Firefox */
+  scrollbar-color: #343434 transparent;  /* Thumb and track color */
+  padding-right: 12px;             /* Ensure enough space in Firefox */
+  box-sizing: border-box;         /* Ensure padding is included in width/height */
+}
+
+/* --- IE / Edge legacy --- */
+.sidebar-large,
+.response-body,
+.history-list,
+.json-editor {
+  -ms-overflow-style: scrollbar;   /* Ensures scrollbar visibility in IE/Edge */
+}
