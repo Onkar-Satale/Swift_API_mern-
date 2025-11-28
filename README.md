@@ -7,15 +7,23 @@ It allows developers to send requests, view responses, and manage API workflows 
 
 ## 🚀 Features
 
-- Send HTTP requests (GET, POST, PUT, DELETE) with custom headers and body.  
-- Save and view request history for quick re-use.  
-- Organize requests into collections for better workflow management.  
-- Syntax highlighting for JSON request/response bodies.  
-- Authentication token support (JWT, Bearer tokens).  
-- Responsive and intuitive frontend built with React.  
-- Backend powered by Node.js and Express with MongoDB for persistent data storage.  
-- Supports multiple users with secure login and registration.  
-- Easily extendable for additional API testing utilities.
+📨 Send HTTP requests (GET, POST, PUT, DELETE) with custom headers and body.
+
+📚 Save and view request history for quick re-use.
+
+🗂️ Organize requests into collections for better workflow management.
+
+✨ Syntax highlighting for JSON request/response bodies.
+
+🔒 Authentication token support (JWT, Bearer tokens).
+
+🖥️ Responsive and intuitive frontend built with React.
+
+⚡ Backend powered by Node.js and Express with MongoDB for persistent data storage.
+
+👥 Supports multiple users with secure login and registration.
+
+🔧 Easily extendable for additional API testing utilities.
 
 ---
 
@@ -80,15 +88,15 @@ Serve the frontend build using a web server like Netlify, Vercel, or Render.
 
 📝 Usage
 
-Sign up or log in as a developer.
+🖊️ Sign up or log in as a developer.
 
-Enter an API endpoint, select method, add headers and body as required.
+🔗 Enter an API endpoint, select method, add headers and body as required.
 
-Send the request and view the response with formatting.
+📤 Send the request and view the response with formatting.
 
-Save requests for future use or organize them in collections.
+💾 Save requests for future use or organize them in collections.
 
-Access request history and reuse them anytime.
+⏱️ Access request history and reuse them anytime.
 
 ---
 
@@ -124,30 +132,37 @@ API Testing(Raw View):
 
 ---
 🤝 Contribution
-Contributions are welcome!
 
-Fork the repository.
+Contributions are welcome.
 
-Create a new branch for your feature:
+🍴 Fork the repository.
+
+🌿 Create a new branch for your feature:
+
 git checkout -b feature-name
 
-Make your changes and commit:
+
+🛠️ Make your changes and commit:
+
 git commit -m "Add feature XYZ"
 
-Push your branch:
+
+🚀 Push to your branch:
+
 git push origin feature-name
-Open a Pull Request on GitHub.
+
+
+🔃 Open a Pull Request on GitHub.
 
 ---
 
 🌐 Links
 Repository: https://github.com/Onkar-Satale/Swift_API_mern-
 
-Live Demo: (Add link if deployed)
-
 ---
 
-About
+💡About:
+
 Swift API is designed for developers and teams to streamline API testing and workflow management.
 It’s lightweight, fast, and fully customizable for personal or professional use.
 
