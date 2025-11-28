@@ -95,6 +95,18 @@ Access request history and reuse them anytime.
 🖼️ Demo Screenshots
 Login Page	Request Interface	Response Viewer
 
+Account Page:
+
+
+Signup Page:
+
+
+Login Page:
+
+API Testing(Pretty View):
+
+
+API Testing(Raw View):
 
 
 <img width="1920" height="1019" alt="Screenshot 2025-11-28 220036" src="https://github.com/user-attachments/assets/acdfd12b-f1f3-4cb0-8c98-16235e365f03" />
