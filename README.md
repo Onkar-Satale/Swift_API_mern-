@@ -73,19 +73,6 @@ The application reloads automatically when you modify source files.
 
 ---
 
-📦 Build for Production
-
-Frontend:
-cd Frontend
-npm run build
-
-Backend:
-cd backend
-npm start
-Serve the frontend build using a web server like Netlify, Vercel, or Render.
-
----
-
 📝 Usage
 
 🖊️ Sign up or log in as a developer.
