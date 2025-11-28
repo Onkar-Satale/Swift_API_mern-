@@ -24,7 +24,7 @@ It allows developers to send requests, view responses, and manage API workflows 
 - **Frontend:** React, JavaScript, HTML, CSS  
 - **Backend:** Node.js, Express.js  
 - **Database:** MongoDB  
-- **Styling:** Tailwind CSS / CSS Modules  
+- **Styling:** CSS Modules  
 - **Authentication:** JWT  
 - **Tools:** Node.js, npm, Postman (for testing API), VS Code  
 
@@ -37,21 +37,21 @@ It allows developers to send requests, view responses, and manage API workflows 
 
 git clone https://github.com/Onkar-Satale/Swift_API_mern-.git
 cd Swift_API_mern-
+
 Install dependencies
+
 Backend:
-bash
-Copy code
+
 cd backend
 npm install
+
 Frontend:
-bash
-Copy code
 cd ../Frontend
 npm install
+
 Run the development server
+
 Backend:
-bash
-Copy code
 cd backend
 npm start
 Server will run on: http://localhost:5000
@@ -61,23 +61,23 @@ bash
 Copy code
 cd ../Frontend
 npm start
+
 Frontend will run on: http://localhost:3000
 The application reloads automatically when you modify source files.
 
+---
+
 📦 Build for Production
 Frontend:
-
-bash
-Copy code
 cd Frontend
 npm run build
-Backend:
 
-bash
-Copy code
+Backend:
 cd backend
 npm start
 Serve the frontend build using a web server like Netlify, Vercel, or Render.
+
+---
 
 📝 Usage
 Sign up or log in as a developer.
@@ -90,10 +90,14 @@ Save requests for future use or organize them in collections.
 
 Access request history and reuse them anytime.
 
+---
+
 🖼️ Demo Screenshots
 Login Page	Request Interface	Response Viewer
 
 Replace these placeholder screenshots with your actual project images.
+
+---
 
 🤝 Contribution
 Contributions are welcome!
@@ -101,26 +105,23 @@ Contributions are welcome!
 Fork the repository.
 
 Create a new branch for your feature:
-
-bash
-Copy code
 git checkout -b feature-name
+
 Make your changes and commit:
-
-bash
-Copy code
 git commit -m "Add feature XYZ"
-Push your branch:
 
-bash
-Copy code
+Push your branch:
 git push origin feature-name
 Open a Pull Request on GitHub.
+
+---
 
 🌐 Links
 Repository: https://github.com/Onkar-Satale/Swift_API_mern-
 
 Live Demo: (Add link if deployed)
+
+---
 
 About
 Swift API is designed for developers and teams to streamline API testing and workflow management.
