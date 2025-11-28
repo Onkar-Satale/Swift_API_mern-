@@ -34,14 +34,12 @@ It allows developers to send requests, view responses, and manage API workflows 
 
 ### Clone the repository:
 
-
 git clone https://github.com/Onkar-Satale/Swift_API_mern-.git
 cd Swift_API_mern-
 
 Install dependencies
 
 Backend:
-
 cd backend
 npm install
 
@@ -68,6 +66,7 @@ The application reloads automatically when you modify source files.
 ---
 
 📦 Build for Production
+
 Frontend:
 cd Frontend
 npm run build
@@ -80,6 +79,7 @@ Serve the frontend build using a web server like Netlify, Vercel, or Render.
 ---
 
 📝 Usage
+
 Sign up or log in as a developer.
 
 Enter an API endpoint, select method, add headers and body as required.
@@ -95,18 +95,23 @@ Access request history and reuse them anytime.
 🖼️ Demo Screenshots:
 
 Signup Page:
+
 <img width="1920" height="1019" alt="Screenshot 2025-11-28 220117" src="https://github.com/user-attachments/assets/29d490d4-adb3-4be6-a0a2-c70dc78778f0" />
 
 Login Page:
+
 <img width="1920" height="1020" alt="Screenshot 2025-11-28 220107" src="https://github.com/user-attachments/assets/3afb25f3-0a95-4d0d-a728-d438920a76cb" />
 
 Account Page:
+
 <img width="1920" height="1019" alt="Screenshot 2025-11-28 220036" src="https://github.com/user-attachments/assets/acdfd12b-f1f3-4cb0-8c98-16235e365f03" />
 
 API Testing(Pretty View):
+
 <img width="1920" height="1017" alt="Screenshot 2025-11-28 220626" src="https://github.com/user-attachments/assets/83f236d4-ae87-4097-a4ae-790a8441c35f" />
 
 API Testing(Raw View):
+
 <img width="1920" height="1019" alt="Screenshot 2025-11-28 220641" src="https://github.com/user-attachments/assets/18d9fe22-2928-4f0c-8ffb-7607d2ca656a" />
 
 
